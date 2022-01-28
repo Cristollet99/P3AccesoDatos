@@ -202,7 +202,7 @@ public function vender(Request $req){
                 $venta -> user_id = $user -> id;
                 $venta -> save();
                 $answer['msg'] = 'The sell has been added';
-                
+            
              }
          }
 
